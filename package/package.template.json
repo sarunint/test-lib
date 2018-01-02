@@ -1,0 +1,13 @@
+{
+  "name": "@sarunint/test-lib",
+  "version": "0.0.1",
+  "author": "Sarun Intaralawan",
+  "license": "MIT",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0"
+  },
+  "main": "bundles/test_lib.umd.js",
+  "module": "esm5/test_lib.js",
+  "es2015": "esm2015/test_lib.js",
+  "typings": "test_lib.d.ts"
+}

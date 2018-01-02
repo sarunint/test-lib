@@ -1,0 +1,15 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "target": "es5",
+    "module": "umd",
+    "outDir": "./build/umd"
+  },
+  "angularCompilerOptions": {
+    "strictMetadataEmit": true,
+    "skipTemplateCodegen": true,
+    "annotateForClosureCompiler": true,
+    "flatModuleOutFile": "test_lib.js",
+    "flatModuleId": "@sarunint/test-lib"
+  }
+}
